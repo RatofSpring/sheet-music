@@ -3,8 +3,9 @@
   composer = "The Wedding Singer"
 }
 
+
 \score {
-  %\transpose b fis
+  \transpose b fis {
   \relative c' {
   \override Score.BarNumber.break-visibility = ##(#f #f #f)
   \key b \major
@@ -17,9 +18,10 @@
     fis,2.\p( b4 | cis4. b8 ~ b2 ~ | b2.\> b8\!) r8 | b2\p\<( cis\! \break
     cis4. dis8 ~ dis2 | e4. dis8 ~ dis2 ~ dis 2.\> ~ dis8\!) r8 \break
     R1*3 gis,\p( b\> ~ b2) r2\! \break
+  } %closes relative
+  } %closes transpose
+  
     %TO OBOE
-    
-  }
 
   \layout {}
   \midi {}
