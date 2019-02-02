@@ -14,7 +14,7 @@
 
     \time 4/4 \key c \major
     \mark "4B" R1*2 r2 r4 r8 g'8\mf( | bes4 a f g\sfp ~ \break
-    g1\> g ~ g2.) r4
+    g1\> g ~ g2.\!) r4
 
 
   }
